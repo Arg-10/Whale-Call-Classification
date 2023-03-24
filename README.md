@@ -1,4 +1,4 @@
-# Blue Whale Call Classification with CNN
+# Whale Call Classification
 
 This project aims to classify Blue whale calls into A-calls or not based on a training dataset provided as a part of ISI DataFest Integration 2023. A-Calls are the most commonly heard vocalization of Blue whales and play an important role in their communication and behavior.
 
