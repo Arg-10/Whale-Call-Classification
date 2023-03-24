@@ -40,3 +40,4 @@ The model achieved an accuracy of 97% on the test set.
 ## License
 
 This project is licensed under the [MIT](LICENSE) license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Arg-10/Whale-Call-Classification/blob/main/LICENSE)
