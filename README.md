@@ -6,17 +6,29 @@ The project uses a Convolutional Neural Network (CNN) to classify the Blue whale
 
 ## Installation
 
-To install the required packages, run the following command:
+Clone the repo and cd into it. To install the required packages, run the following command:
 ```
 pip install -r requirements.txt
 ```
+Download the dataset from the competetion link [here](https://www.kaggle.com/competitions/datafestintegration2023/data) or using the kaggle API, run:
+```
+kaggle competitions download -c datafestintegration2023
+```
+Make sure the dataset is in the same directory as the working directory.
 
 ## Usage
+
+First preprocess the data. Install ffmpeg which is a dependancy for ```make_aiff.py``` and then preprocess the data. Run the following commands:
+```
+sudo apt install ffmpeg
+python make_aiff.py
+python preprocess.py
+```
 
 To train the model, run the following command:
 
 ```
-python train.py --data_path /path/to/training/data --model_save_path /path/to/save/model
+python train.py
 ```
 
 ## Dataset
